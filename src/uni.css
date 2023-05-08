@@ -1,0 +1,4 @@
+*{padding:0px;margin:0px;box-sizing:border-box;}
+html{font-size:1rem;scroll-behavior:smooth;}
+.flex-row-evenly{display:flex;flex-direction:row;justify-content:space-evenly;align-items:center;}
+.flex-column-evenly{display:flex;flex-direction:column;justify-content:space-evenly;align-items:center;}
