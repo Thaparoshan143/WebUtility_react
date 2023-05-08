@@ -1,0 +1,25 @@
+.NavBar
+{
+    background-color:black;
+    padding-top:0.5rem;
+}
+
+.Nav-Items
+{
+    margin-left:50vw;
+}
+
+.Nav-Item
+{
+    list-style: none;
+    padding:1rem 1.5rem;
+    transition:all 0.5s ease;
+    cursor: pointer;
+}
+
+.Nav-Item:hover
+{
+    background-color: white;
+    color:black;
+    transform: scaleX(1.1);
+}
