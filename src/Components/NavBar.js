@@ -3,7 +3,7 @@ import "./NavBar.css"
 import "../uni.css"
 import { NavLink } from 'react-router-dom';
 
-const navItems=["Home","Color Picker","Box Shadow","Gradient Generator",];
+const navItems=["Home","Color Picker","Box Shadow","Gradient Generator"];
 
 function NavBar() {
   return (

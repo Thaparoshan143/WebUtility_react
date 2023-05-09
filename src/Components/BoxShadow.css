@@ -1,0 +1,124 @@
+.Box-Shadow
+{
+    padding:1rem;
+}
+
+.Box-Sha-Wrapper
+{
+    padding:0.85rem;
+    background-color: white;
+    border-radius:20px;
+}
+
+.View-Wrapper .Ex-1,.Ex-2
+{
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+}
+
+.View-Wrapper .Ex-2
+{
+    height: 10vw;
+    border-radius: 50%;
+    width: 10vw;
+}
+
+.Ex-2:hover 
+{
+    background-color: white;
+    border-radius: 50%;
+    color:black;
+}
+
+.Ex-Card
+{
+    background-color: white;
+    height: 20vh;
+    width:20vh;
+    color:black;
+}
+
+.Box-Shadow .Info-Wrapper
+{
+    height: 85vh;
+}
+
+.Box-Shadow .Code-Text
+{
+    padding:0.5rem 0.2rem;
+    background-color: rgba(0,0,0,0.3);
+    border-radius:5px;
+    font-size:1.2rem;
+    font-family: 'PT Serif', serif;
+    font-weight:lighter;    
+    width:23vw;
+    border:1px dotted black;
+}
+
+.Info-Wrapper .Info-Text
+{
+    color:black;
+    font-size:1.05rem;
+    margin:0.7rem;
+}
+
+.Shadow-Input
+{
+    width:20vw;
+}
+
+.Code .Info-Text
+{
+    color:orangered;
+    font-size: 1.5rem;
+    margin:0.5rem;
+}
+
+.Shadow-Input .Color-Chooser
+{
+    border:none;
+    width:8rem;
+    height:2rem;
+}
+
+.View-Cont
+{
+    justify-content: space-between;
+    width:65vw;
+    padding:0 2rem;
+}
+
+.Info-Wrapper .Button
+{
+    padding:0.5rem 1rem;
+    margin-bottom:0.5rem;
+    font-size: 1rem;
+}
+
+.Shadow-Nav
+{
+    width: 65vw;
+}
+
+.View-Wrapper
+{
+    height: 80vh;
+    justify-content: space-between;
+}
+
+.Shadow-Nav
+{
+    background-color: transparent;
+    color:black;
+    padding:1rem;
+}
+
+.View-Wrapper>.Info-Text:nth-child(1)
+{
+    color:orangered;
+    font-size: 2.5rem;
+}
+
+
+
