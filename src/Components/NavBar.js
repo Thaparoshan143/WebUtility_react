@@ -1,7 +1,7 @@
 import React from 'react'
 import "./NavBar.css"
 import "../uni.css"
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const navItems=["Home","Color Picker","Box Shadow","Gradient Generator",];
 
@@ -20,7 +20,7 @@ function NavItems()
         {
             navItems.map(val=>
                 (
-                    <Item title={val} />
+                    <Item title={val} key={val} />
                 ))
         }
         </ul>
@@ -30,7 +30,7 @@ function NavItems()
 function Item(props)
 {
     return (
-        <Link className="Nav-Item" to={props.title}>{props.title}</Link>
+        <NavLink className="Nav-Item" activeClassName="active" to={props.title}>{props.title}</NavLink>
     )
 }
 

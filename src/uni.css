@@ -16,7 +16,8 @@ a{text-decoration: none;color:white;}
     font-size:1.2rem;
     padding:1rem 2rem;
     border-radius:5px;
-    transition:all 0.4s ease-in;
+    cursor:pointer;
+    transition:all 0.3s ease-in;
 }
 
 .Button:hover
@@ -24,4 +25,22 @@ a{text-decoration: none;color:white;}
     color:white;
     border-radius:10px;
     background-color: black;
+}
+
+/* This is just incase if forget to apply the bgcolor for the page wrapper */
+.Page-Wrapper
+{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.Page-Title
+{
+    font-size:2rem;
+    color:white;
+    margin:1rem 0;
+}
+
+span 
+{
+    display:block;
 }

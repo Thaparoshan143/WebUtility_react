@@ -1,0 +1,85 @@
+.Rand-Col-Picker
+{
+    padding:1rem 2rem;
+    width:100vw;
+    /* background: linear-gradient(to top left, rgba(255, 0, 0, 0.465), rgba(255, 166, 0, 0.459),rgba(255, 68, 0, 0.273)); */
+}
+
+.Rand-Col-Pick-Wrapper
+{
+    padding:1rem;
+    /* background-color:rgba(0,0,0,0.1); */
+    backdrop-filter: blur(10px);
+    background-color: rgb(198, 191, 191);
+    box-shadow: 0 0 15px 3px rgba(0,0,0,0.3);
+    border-radius:20px;
+}
+
+.Platte-Wrapper
+{
+    border-radius:10px;
+    overflow: hidden;
+    min-width:15vw;
+    width: 60vw;
+    border:1px solid black;
+}
+
+.Info-Wrapper
+{
+    padding:1rem;
+    background-color: white;
+    height: 70vh;
+    border-radius:10px;
+    box-shadow: 0 0 20px 1px gray;
+}
+
+.Info-Text
+{
+    font-size:1.5rem;
+    color:gray;
+    margin:1rem;
+}
+
+.Info-Code
+{
+    font-size:4.5rem;
+    color:orangered;
+}
+
+.Color-Bar
+{
+    height: 75vh;
+    width:100%;
+    transition:all 0.5s ease;
+}
+
+.Color-Bar:hover
+{
+    width:200%;
+    font-size:2.5rem;
+}
+
+.Info-Wrapper .Button
+{
+    color:black;
+    border-radius: 5px;
+    border:2px solid rgba(0,0,0,0.5);
+}
+
+.Info-Wrapper .Button:hover
+{
+    letter-spacing:2px;
+    color:white;
+}
+
+input.Alpha
+{
+    width:2rem;
+    height: 2rem;
+}
+
+input.slider
+{
+    width:80%;
+}
+

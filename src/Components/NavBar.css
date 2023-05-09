@@ -1,7 +1,7 @@
 .NavBar
 {
     background-color:black;
-    padding-top:0.5rem;
+    padding:0.2rem 0;
 }
 
 .Nav-Items
@@ -22,4 +22,10 @@
     background-color: white;
     color:black;
     transform: scaleX(1.1);
+}
+
+.Nav-Item.active
+{
+    background-color: white;
+    color:black;
 }

@@ -15,7 +15,6 @@
 
 .Main-Body
 {
-    width: 100vw;
     background-image: linear-gradient(to left top, #a3ef2577, #f9ae0077, #ff4a2c77, #ff008e77, #a412eb77);
     padding:3rem;
 }
@@ -24,14 +23,14 @@
 {
     font-size:2rem;
     margin-bottom:2rem;
-    color:black;
+    color:white;
 }
 
 
 .Card
 {
-    padding:0.5rem;
-    background-color: rgba(255, 166, 0, 0.7);
+    padding:0.8rem;
+    background-color: rgba(26, 25, 24, 0.9);
     border-radius: 15px;
     max-width: 35vw;
     width:35vw;
@@ -113,5 +112,6 @@
     color:orangered;
     background-color:white;
 }
+
 
 

@@ -10,7 +10,10 @@ const cardContents=["Color Picker is the utlity for choosing the color or platte
 function Body() {
   return (
     <main className="Main-Body">
-        <div className="Home-Title">Here you can find differnet utility for the speeding your Web Development process.</div>
+        <div className="Home-Title">
+            <h2>Developed by Roshan Thapa. A Web Development Utility Site.</h2><hr /><br />
+            Here you can find differnet utility for the speeding your Web Development process.
+        </div>
         <Cards />
     </main>
   )
@@ -32,7 +35,7 @@ function Cards()
 function Card(props)
 {
     return (
-        <div className="Card flex-column-evenly">
+        <div className={"Card flex-column-evenly "+props.title}>
             <span className="Card-Title">{props.title}</span>
             <div className='Card-Content'>{cardContents[props.ind]}</div>
             <button className="Button">Explore</button>
