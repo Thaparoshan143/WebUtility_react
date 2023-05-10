@@ -61,9 +61,13 @@
 
 .Info-Wrapper .Button
 {
-    color:black;
     border-radius: 5px;
     border:2px solid rgba(0,0,0,0.5);
+}
+
+.Rand-Col-Pick-Wrapper .Info-Wrapper .Button
+{
+    color:black;
 }
 
 .Info-Wrapper .Button:hover

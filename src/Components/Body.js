@@ -1,11 +1,17 @@
 import React from 'react'
 import "./Body.css"
 import "../uni.css"
+import { Link } from 'react-router-dom';
+import { Route,Routes } from 'react-router-dom';
+import ColorPicker from './ColorPicker';
+import BoxShadow from './BoxShadow';
+import GradientGenerator from './GradientGenerator';
 
-const cardTitles=["Color Picker","Gradient Generator","Box Shadow"];
+
+const cardTitles=["Color Picker","Box Shadow","Gradient Generator"];
 const cardContents=["Color Picker is the utlity for choosing the color or platte for the web developmet color selection",
-                   "Gradient Generator is utility to speed generate the gradient within the given color range formate",
-                    "Box Shadow allows to visualize the box shadow that will be seen in any element in real time form" ];
+                    "Box Shadow allows to visualize the box shadow that will be seen in any element in real time form",
+                   "Gradient Generator is utility to speed generate the gradient within the given color range formate"];
 
 function Body() {
   return (
@@ -38,7 +44,7 @@ function Card(props)
         <div className={"Card flex-column-evenly "+props.title}>
             <span className="Card-Title">{props.title}</span>
             <div className='Card-Content'>{cardContents[props.ind]}</div>
-            <button className="Button">Explore</button>
+            <button><Link className="Button" to={`/${props.title}`}>Explore</Link></button>
         </div>
     )
 }

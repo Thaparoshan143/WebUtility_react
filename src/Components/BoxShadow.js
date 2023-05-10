@@ -65,6 +65,7 @@ function BoxShadow()
 						<button className="Button Ex-2" style={getBoxStyle}>Cir But</button>
 						<div className="Ex-Card flex-row-evenly" style={getBoxStyle}>Card</div>
 					</div>
+					<br />
 				</div>
 				<div className="Info-Wrapper flex-column-evenly">
 					<ShadowInputs shaVal={boxShaNumVal} chaShaVal={changeBoxShaVal} changeCol={changeCol} colVal={shaColor} fillColVal={fillColor} changeFillCol={changeFillCol}/>

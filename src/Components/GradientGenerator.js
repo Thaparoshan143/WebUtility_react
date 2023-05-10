@@ -44,7 +44,7 @@ function GradientGenerator()
 		newGradColVal.length=gradNum;
 		newGradColVal[index]=val;
 		setGradColVal(newGradColVal);
-		console.log("color changed");
+		// console.log("color changed");
 	}
 
 	function getGradColVal()
