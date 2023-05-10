@@ -11,6 +11,7 @@ function App() {
 		<div className="App">
 			<NavBar />
 			<Routes>
+				<Route path="/*" element={<Body />} />
 				<Route path="/Home" element={<Body />}/>
 				<Route path="/Color Picker" element={<ColorPicker />}/>
 				<Route path="/Box Shadow" element={<BoxShadow />}/>
