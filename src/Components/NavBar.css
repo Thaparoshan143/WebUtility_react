@@ -17,10 +17,20 @@
     cursor: pointer;
 }
 
-.Item
+.Item,.Sub-Item
 {
     padding:1rem 1.5rem;
     min-width:10rem;
+    z-index: 100;
+}
+
+.Sub-Items
+{
+    position:absolute;
+    top:100%;
+    left:0;
+    width: 100%;
+    height: fit-content;
 }
 
 .Item:hover
@@ -28,6 +38,8 @@
     background-color: white;
     color:black;
     transform: scaleX(1.1);
+    position:relative;
+
 }
 
 .Nav-Item.active .Item
@@ -38,6 +50,6 @@
 
 .Sub-Item
 {
-    /* background-color: red; */
+    background-color: black;
     margin:0.1rem;
 }

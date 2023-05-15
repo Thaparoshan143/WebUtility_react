@@ -35,22 +35,22 @@ function Item(props)
 
     function showSubItems()
     {
-        if(!isHover)
+        // if(!isHover)
         setIsHover(true);
     }
 
     function closeSubItems()
     {
-        if(isHover)
+        // if(isHover)
         setIsHover(false);
     }
 
     return (
-        <NavLink className="Nav-Item flex-column-evenly" to={props.title} onMouseOver={showSubItems} onMouseLeave={closeSubItems}>
-            <span className="Item">{props.title}</span>
-            {isHover?(navSubItems[props.ind].length ? navSubItems[props.ind].map((val)=>{
+        <NavLink className="Nav-Item flex-column-evenly" to={props.title} onMouseOver={showSubItems} onMouseLeave={closeSubItems} >
+            <span className="Item">{props.title}
+            <div className='Sub-Items flex-column-evenly' onMouseOver={showSubItems} onMouseLeave={closeSubItems} >{isHover?(navSubItems[props.ind].length ? navSubItems[props.ind].map((val)=>{
                 return <NavLink className="Sub-Item Item" to={val}>{val}</NavLink>
-            }):""):""}
+            }):""):""}</div></span>
             </NavLink>
     )
 }
