@@ -28,12 +28,12 @@ a{text-decoration: none;color:white;}
 }
 
 /* This is just incase if forget to apply the bgcolor for the page wrapper */
-.Page-Wrapper
+.page-wrapper
 {
     background-color: rgba(0,0,0,0.4);
 }
 
-.Page-Title
+.page-title
 {
     font-size:2rem;
     color:white;

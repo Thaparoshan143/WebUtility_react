@@ -30,8 +30,8 @@ function RandomColorPicker() {
     }
 
   return (
-    <div className="Page-Wrapper Rand-Col-Picker">
-        <span className="Page-Title">Random Color Picker</span>
+    <div className="page-wrapper Rand-Col-Picker">
+        <span className="page-title">Random Color Picker</span>
         <div className="Rand-Col-Pick-Wrapper flex-row-evenly">
             <ColorBars randCol={randomColors} />
             <div className="Info-Wrapper flex-column-evenly">

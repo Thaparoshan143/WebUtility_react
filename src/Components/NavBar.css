@@ -12,20 +12,32 @@
 .Nav-Item
 {
     list-style: none;
-    padding:1rem 1.5rem;
+    padding:0.1rem;
     transition:all 0.5s ease;
     cursor: pointer;
 }
 
-.Nav-Item:hover
+.Item
+{
+    padding:1rem 1.5rem;
+    min-width:10rem;
+}
+
+.Item:hover
 {
     background-color: white;
     color:black;
     transform: scaleX(1.1);
 }
 
-.Nav-Item.active
+.Nav-Item.active .Item
 {
     background-color: white;
     color:black;
+}
+
+.Sub-Item
+{
+    /* background-color: red; */
+    margin:0.1rem;
 }

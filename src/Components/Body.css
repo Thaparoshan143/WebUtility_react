@@ -1,17 +1,4 @@
-:root
-{
-    --border-width:3px;
-}
 
-.Main-Bg
-{
-    background-color: rgba(255,255,255,0.3);
-    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(15px);
-    padding:1rem 0;
-    border-radius:10px;
-    flex-wrap: wrap;
-}
 
 .Main-Body
 {
@@ -27,91 +14,6 @@
 }
 
 
-.Card
-{
-    padding:0.8rem;
-    background-color: rgba(26, 25, 24, 0.9);
-    border-radius: 15px;
-    max-width: 35vw;
-    width:35vw;
-    min-height: 45vh;
-    margin:2rem;
-    transition:all 0.3s ease-in-out;
-}
-
-.Card:hover
-{
-    box-shadow:0 0 15px 2px rgba(255, 68, 0, 0.421);
-    transform:scale(1.02);
-}
-
-.Card-Title
-{
-    color:orangered;
-    font-size:2rem;
-    display: block;
-    cursor:default;
-    transition:all 0.4s ease-in-out;
-    padding:0.6rem 1.2rem;
-    position:relative;
-}
-
-.Card-Title::before,.Card-Title::after
-{
-    position:absolute;
-    height: 3rem;
-    width: 2rem;
-    content:'';
-    /* background-color: white; */
-    transition:all 0.5s ease;
-}
-
-.Card-Title::before
-{
-    top:0;
-    left:0;
-    border-left:var(--border-width) solid transparent;
-    border-top:var(--border-width) solid transparent;
-}
-
-.Car-Title::after
-{
-    bottom:0;
-    right: 0;
-    border-right:var(--border-width) solid transparent;
-    border-bottom:var(--border-width) solid transparent;
-}
-
-.Card-Title:hover::after
-{
-    border-right:var(--border-width) solid orangered;
-    border-bottom:var(--border-width) solid orangered;
-}
-
-.Card-Title:hover::before
-{
-    border-left:var(--border-width) solid orangered;
-    border-top:var(--border-width) solid orangered;
-}
-
-.Card-Content
-{
-    font-weight: lighter;
-    font-size: 1rem;
-    font-family: 'Oswald', sans-serif;
-}
-
-.Card .Button
-{
-    background-color: orangered;
-    color:white;
-}
-
-.Card .Button:hover
-{
-    color:orangered;
-    background-color:white;
-}
 
 
 
