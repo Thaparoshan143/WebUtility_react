@@ -42,7 +42,7 @@
 
 }
 
-.Nav-Item.active .Item
+.Nav-Item.active>.Item
 {
     background-color: white;
     color:black;

@@ -38,7 +38,7 @@ function RandomColorPicker() {
                 <div>
                     <span className="Info-Text">Number of Random Colors</span>
                     <span className="Info-Code">{colorNumber}</span><br />
-                    <input class="slider" type="range" min="1" max="10" value={colorNumber} onChange={(e)=>changeColorNum(e)} />
+                    <input className="slider" type="range" min="1" max="10" value={colorNumber} onChange={(e)=>changeColorNum(e)} />
                     <br /><span className='Info-Text' style={{color:'orangered'}}>[Hint : Available from 1 to 10]</span>
                 </div>
                 <div className='flex-row-evenly'>
@@ -93,7 +93,7 @@ function RandomColorsGenerator(colNum,colLen)
 }
 
 // This function generates the hex based color equivalent for random color generation
-function RandomColorGenerator(colLen)
+export function RandomColorGenerator(colLen)
 {
     // hex len refers to the number of hex required for the color formation
     // len could be 3 for general, 6 for most colors, 8 for color with alpha
